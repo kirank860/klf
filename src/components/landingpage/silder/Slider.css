@@ -1,0 +1,250 @@
+element.style {
+  background-image: url(/public/assets/images/hero-3.jpg);
+}
+.meeta-hero-section-3 {
+  padding-top: 310px;
+  padding-bottom: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.meeta-hero-section-3 {
+  padding-top: 310px;
+  padding-bottom: 240px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.meeta-hero-section-3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(-180deg, #f6730d 0%, #d90845 100%);
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap {
+  text-align: center;
+  border: 3px solid #fff;
+  width: 475px;
+  height: 475px;
+  padding-top: 110px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(0.85);
+  background: #ff8a2f;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-date {
+  margin-bottom: 20px;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-date .number {
+  font-size: 120px;
+  line-height: 36px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-date span {
+  font-size: 22px;
+  line-height: 36px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.meeta-hero-section-3
+  .meeta-countdown-wrap
+  .meeta-countdown-3
+  .single-countdown {
+  display: inline-block;
+  text-align: center;
+  padding: 22px 15px;
+  background: #e57c2a;
+  min-width: 75px;
+  height: 75px;
+  line-height: 40px;
+}
+
+.meeta-hero-section-3
+  .meeta-countdown-wrap
+  .meeta-countdown-3
+  .single-countdown
+  + .single-countdown {
+  margin-left: 5px;
+}
+
+.meeta-hero-section-3
+  .meeta-countdown-wrap
+  .meeta-countdown-3
+  .single-countdown
+  .count {
+  font-size: 30px;
+  line-height: 12px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  display: block;
+  color: #ffffff;
+}
+
+.meeta-hero-section-3
+  .meeta-countdown-wrap
+  .meeta-countdown-3
+  .single-countdown
+  .value {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .text {
+  font-size: 18px;
+  line-height: 55px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .title {
+  font-size: 70px;
+  line-height: 72px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .hero-btn {
+  margin-top: 40px;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .hero-btn .btn-2 {
+  background: #ffffff;
+  color: #fc097c;
+  border-radius: 5px;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .hero-btn .btn-2::before {
+  background-color: #fc097c;
+}
+
+.meeta-hero-section-3 .meeta-hero-content .hero-btn .btn-2:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1199px) {
+  .meeta-hero-section-3 {
+    padding-top: 240px;
+    padding-bottom: 170px;
+  }
+  .meeta-hero-section-3 .meeta-countdown-wrap {
+    width: 430px;
+    height: 430px;
+  }
+  .meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-date .number {
+    font-size: 95px;
+    line-height: 36px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .meeta-hero-section-3 .meeta-countdown-wrap .meeta-countdown-date span {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .meeta-hero-section-3
+    .meeta-countdown-wrap
+    .meeta-countdown-3
+    .single-countdown {
+    padding: 15px 15px;
+    min-width: 65px;
+    height: 65px;
+  }
+  .meeta-hero-section-3
+    .meeta-countdown-wrap
+    .meeta-countdown-3
+    .single-countdown
+    .count {
+    font-size: 28px;
+  }
+  .meeta-hero-section-3 .meeta-hero-content .title {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .meeta-hero-section-3 .meeta-hero-content .header-btn {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .meeta-hero-section-3 {
+    padding-top: 160px;
+    padding-bottom: 150px;
+  }
+  .meeta-hero-section-3 .meeta-countdown-wrap {
+    margin: 0 auto;
+  }
+  .meeta-hero-section-3 .meeta-hero-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .meeta-hero-section-3 .meeta-hero-content .title {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .meeta-hero-section-3 {
+    padding-bottom: 125px;
+  }
+  .meeta-hero-section-3 .meeta-countdown-wrap {
+    margin: 0 auto;
+  }
+  .meeta-hero-section-3 .meeta-hero-content .text {
+    font-size: 16px;
+  }
+  .meeta-hero-section-3 .meeta-hero-content .title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  .meeta-hero-section-3 .meeta-countdown-wrap {
+    display: none;
+  }
+}
