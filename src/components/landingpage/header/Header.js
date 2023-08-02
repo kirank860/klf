@@ -9,7 +9,7 @@ const Header = () => {
             <div class="header-wrap">
               <div class="header-logo header-logo-3">
                 <a class="logo-black" href="index-2.html">
-                  <img src="assets/images/logo-3.png" alt="Logo" />
+                  <img src="assets/images/logo-3.pngg" alt="Logo" />
                 </a>
                 <a class="logo-white" href="index-2.html">
                   <img src="assets/images/logo-4.png" alt="Logo" />
